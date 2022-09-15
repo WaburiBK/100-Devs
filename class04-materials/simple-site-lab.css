@@ -1,0 +1,38 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: green;
+}
+
+img {
+    float: right;
+    height: 400px;
+    width: 300px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-style: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aqua;
+    border: 5px solid rgb(88, 173, 88);
+    width: 750px;
+    height: 750px;
+    margin: 10px auto;
+}
