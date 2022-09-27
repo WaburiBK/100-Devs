@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+section{
+    height: 150px;
+    border: 3px solid green;
+}
+
+.article_1, .article_2{
+    height: 150px;
+    border: 3px solid red;
+    float: left;
+}
+
+.article_1{
+    width: 40%;
+}
+
+.article_2{
+    width: 60%;
+}
