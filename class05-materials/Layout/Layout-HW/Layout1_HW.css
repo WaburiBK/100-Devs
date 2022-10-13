@@ -21,3 +21,27 @@ section{
     border: 3px solid purple;
     float: left;
 }
+
+@media screen and (max-width: 600px){
+    section{
+        background: red;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .article{
+        float: left;
+        width: 100%;
+        background: green;
+    }
+}
+
+@media (max-width: 820px) and (orientation: landscape){
+    section{
+        float: left;
+        background: purple;
+        width: 100%;
+    }
+}
